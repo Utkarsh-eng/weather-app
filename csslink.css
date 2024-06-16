@@ -11,12 +11,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: radial-gradient(white,black);
+    background-color: #6b6b6b;
 }
 .container{
     width: 44%;
     height: min-content;
-    background: linear-gradient(135deg, blue, red);
+    background: linear-gradient(135deg,rgb(50, 138, 50),rgb(132, 163, 132));
     border-radius: 12px;
     padding: 30px;
 }
@@ -134,4 +134,10 @@ body{
 .location-not-found img{
     width: 80%;
 }
-
+@media screen and (max-width: 883px) {
+    .weather-detail
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
